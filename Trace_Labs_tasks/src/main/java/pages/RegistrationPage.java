@@ -33,8 +33,5 @@ public class RegistrationPage {
     public WebElement getCreateAccountButton () {
         return driver.findElement(By.id("ContentPlaceHolder1_btnRegister"));
     }
-    public WebElement getCaptchaBox () {
-        return driver.findElement(By.xpath("//iframe[contains(@name, 'a-4l8g4amcfv9q')]"));
-    }
 
 }
